@@ -30,10 +30,7 @@
  * @copyright 2012 OWASP
  *
  */
-
-
 require_once("PasswordHash.php");
-
 class Utils {
 
 	public function validateEmail($email = '') {
@@ -47,7 +44,7 @@ class Utils {
 	}
 
 	public static function hash($password){
-		return password_hash($password);
+		return password_hash($password, PASSWORD_DEFAULT);
 	}
 
 	public static function check($input, $hash){
