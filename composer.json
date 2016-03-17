@@ -1,6 +1,10 @@
 {
 	"require-dev": {
 		"phpunit/phpunit": "*",
-		"facebook/webdriver": "dev-master"
+		"facebook/webdriver": "dev-master",
+		"behat/behat": "^3.0",
+		"behat/mink-extension": "^2.2",
+		"behat/mink-goutte-driver": "^1.2",
+		"behat/mink-selenium2-driver": "^1.3"
 	}
 }
